@@ -1,0 +1,225 @@
+:root {
+  --primary-color-text: #757575;
+  --secondary-color-text: #212121;
+  --tertiary-color-text: #ffffff;
+  --fourth-color-text: #000000;
+  --primary-background-page: #ffffff;
+  --secondary-background-page: #f5f4fa;
+  --tertiary-background-page: #2f303a;
+  --accent-color: #2196f3;
+  --primary-line-height: 1.2;
+  --secondary-line-height: 1.7;
+  --primary-font-weight: 500;
+  --secondary-font-weight: 700;
+  --primary-font-size: 16px;
+}
+
+
+/* __________ЗАГАЛЬНІ НАЛАШТУВАННЯ________________ */
+
+body {
+  color: var(--primary-color-text);
+  background-color: var(--primary-background-page);
+/* фон і текст */
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+/* прибираю підкреслення у всіх посилань */
+a {
+  text-decoration: none;
+}
+/* прибираю маркерування списків */
+li {
+  list-style-type: none;
+}
+/* прибираю непотрібні заголовки */
+.visually-hidden {
+  position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
+ }
+/* підсвітка активної сторінки */
+ .nav-link.current  {
+  color: var(--accent-color);
+}
+/* Кнопки */
+.button-item,
+.button-activ {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+
+/* ________________ХЕДЕР_________________ */
+
+/* Логотип */
+.logo,
+.logo-span {
+  color: var(--fourth-color-text);
+  font-family: Raleway, sans-serif;
+font-weight: var(--secondary-font-weight);
+font-size: 26px;
+line-height: var(--primary-line-height);
+}
+.logo-span {
+  color: var(--accent-color);
+}
+
+/* Наавігація*/
+.nav-link {
+  color: var(--secondary-color-text);
+
+font-weight: var(--primary-font-weight);
+line-height: var(--primary-line-height);
+letter-spacing: 0.02em;
+}
+
+/* Контакти */
+.contact-link {
+  color: var(--primary-color-text);
+  font-weight: var(--primary-font-weight);
+  line-height: var(--primary-line-height);
+  letter-spacing: 0.02em;
+}
+
+/* зміна кольорів при фокусі і ховері */
+.contact-link:hover,
+.contact-link:focus,
+.footer-contact:hover,
+.footer-contact:focus,
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+/*  ______________ГЕРОЙ_________________ */
+.hero {
+  background-color: var(--tertiary-background-page);
+}
+h1 {
+  color: var(--tertiary-color-text);
+
+  font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.button-activ {
+  color: var(--tertiary-color-text);
+  background-color: var(--accent-color);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+}
+
+/* ________________СЕКЦІЇ____________________ */
+
+.section-title {
+  color: var(--secondary-color-text);
+  /* якщо я його приберу фонд-сайз він не успадкується від боді */
+font-size: 14px;
+font-weight: var(--secondary-font-weight);
+line-height: var(--secondary-line-height);
+text-transform: uppercase;
+}
+
+.section-title-progect,
+.section-title-staff
+ {
+  color: var(--secondary-color-text);
+
+font-weight: var(--secondary-font-weight);
+font-size: 36px;
+line-height: var(--primary-line-height);
+text-align: center;
+}
+
+.section-title-staff-name {
+  color: var(--secondary-color-text);
+
+font-weight: var(--primary-font-weight);
+font-size: var(--primary-font-size);
+line-height: var(--primary-line-height);
+}
+
+.staff-name {
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
+}
+
+.section-staff {
+  background-color: var(--secondary-background-page);
+}
+
+/* _______________ФУТЕР__________________ */
+footer {
+  background-color: var(--tertiary-background-page);
+}
+/* логотип */
+.logo-footer,
+.logo-span {
+  color: var(--tertiary-color-text);
+  font-family: Raleway, sans-serif;
+font-weight: var(--secondary-font-weight);
+font-size: 26px;
+line-height: var(--primary-line-height);
+}
+.logo-span {
+  color: var(--accent-color);
+}
+
+/* адреса футера */
+.address-post {
+  color: var(--tertiary-color-text);
+  font-style: normal;
+}
+
+/* контакти футера */
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+
+/* _________________сторінка "Студія"__________________ */
+.button-item:hover,
+.button-item:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-background-page);
+}
+
+
+/* фільтр контента */
+.button-item {
+font-weight: var(--primary-font-weight);
+font-size: var(--primary-font-size);
+line-height: 1.6;
+letter-spacing: 0.03em
+
+}
+
+/* Проєкти */
+.progects-subtitle {
+  color:  var(--secondary-color-text);
+
+font-weight: var(--secondary-font-weight);
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.progects-text {
+  font-size: var(--primary-font-size);
+line-height: 1.9;
+}

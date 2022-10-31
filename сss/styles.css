@@ -69,15 +69,17 @@ li {
 /* ________________ХЕДЕР_________________ */
 header {
   border-bottom: 1px solid #ECECEC;
-  width: 1600px;
 }
 
 .container {
-  width: 1170px;
-  margin-left: 215px;
-  margin-right: 215px;
-
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* outline: 2px solid red; */
 }
+
 div.nav {
   display: flex;
   align-items: center;
@@ -173,9 +175,6 @@ margin-left: 0px;
 }
 
 /*  ______________ГЕРОЙ_________________ */
-.container-hero {
-  width: 1600px;
-}
 
 section.section-progect {
   padding-top: 0px;
@@ -184,6 +183,8 @@ section.section-progect {
 .hero {
     background-color: var(--tertiary-background-page);
   text-align: center;
+  padding: 200px 0px 200px;
+
 }
 h1 {
   display: block;
@@ -259,11 +260,7 @@ h1 {
 }
 
 /* Секція "команда" */
-.section-progect,
-.section-staff {
-  padding-left: 0px;
-  padding-right: 0px;
-}
+
 
 .section-title-progect{
   margin-top: 0px;
@@ -272,6 +269,7 @@ h1 {
 .example {
   display: flex;
   margin-top: 0px;
+  margin-bottom: 0px;
   padding-left: 0px;
   align-items: center;
 }
@@ -345,13 +343,11 @@ h1 {
 
 .background-color-section {
   background-color: var(--secondary-background-page);
-  width: 1600px;
 }
 
 /* _______________ФУТЕР__________________ */
 footer {
   background-color: var(--tertiary-background-page);
-  width: 1600px;
 }
 /* логотип */
 .logo-footer,
@@ -374,7 +370,7 @@ line-height: var(--primary-line-height);
 }
 
 address {
-  padding-top: 20px;
+  margin-top: 20px;
   padding-bottom: 60px;
 
 }

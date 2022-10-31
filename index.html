@@ -11,9 +11,9 @@
   </head>
   <!-- Контент -->
   <body>
-    <header>
+    <header class="container">
       <!-- навігвція -->
-      <div class="nav container">
+      <div class="nav ">
         <nav class="nav">
           <!-- Logo -->
           <a href="" class="logo nav-and-logo-box"><span class="logo-span">Web</span>Studio</a>
@@ -40,9 +40,11 @@
     <main>
       <!-- hero -->
       
-      <section class="section hero container-hero">
+      <section class="section hero ">
+        <div class="container">
         <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="button-activ">Замовити послугу</button>
+      </div>
       </section>
 <!-- Переваги компанії -->
       <section class="section  container">
@@ -102,10 +104,9 @@
         </ul>
       </section>
       <!-- команда працівників -->
-      <div class="background-color-section">
-        <section class="section section-staff container">
-        
-          <h2 class="section-title-staff">Наша команда</h2>
+        <section class="section  background-color-section">
+          <div class="container">
+            <h2 class="section-title-staff">Наша команда</h2>
           <ul class="staff">
             <li class="staff-items">
               <img
@@ -117,8 +118,7 @@
               <div class="staff-border">
                 <h3 class="section-title-staff-name">Ігор Дем'яненко</h3>
                 <p class="staff-name" lang="en">Product Designer</p>
-  
-              </div>
+                </div>
             </li>
             <li class="staff-items">
               <img
@@ -126,9 +126,11 @@
                 alt="Фото Ольга Рєпіна"
                 width="270"
                 height="260"
-              />
+              />              
+              <div class="staff-border">
               <h3 class="section-title-staff-name">Ольга Рєпіна</h3>
               <p class="staff-name" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="staff-items">
               <img
@@ -137,8 +139,10 @@
                 width="270"
                 height="260"
               />
+              <div class="staff-border">
               <h3 class="section-title-staff-name">Микола Тарасов</h3>
               <p class="staff-name" lang="en">Marketing</p>
+            </div>
             </li>
             <li class="staff-items">
               <img
@@ -147,12 +151,14 @@
                 width="270"
                 height="260"
               />
+              <div class="staff-border">
               <h3 class="section-title-staff-name">Михайло Єрмаков</h3>
               <p class="staff-name" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
-        </section>
         </div>
+        </section>
     </main>
     <!-- футер -->
     <footer >

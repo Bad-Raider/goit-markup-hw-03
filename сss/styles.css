@@ -348,6 +348,8 @@ h1 {
 /* _______________ФУТЕР__________________ */
 footer {
   background-color: var(--tertiary-background-page);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 /* логотип */
 .logo-footer,
@@ -361,7 +363,6 @@ line-height: var(--primary-line-height);
 
 .logo-footer{
   display: block;
-  padding-top: 60px;
   width: 145px;
 }
 
@@ -371,7 +372,6 @@ line-height: var(--primary-line-height);
 
 address {
   margin-top: 20px;
-  padding-bottom: 60px;
 
 }
 /* адреса футера */

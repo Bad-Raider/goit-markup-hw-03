@@ -438,7 +438,9 @@ address {
   font-weight: var(--primary-font-weight);
   font-size: var(--primary-font-size);
   line-height: 1.6;
-  letter-spacing: 0.03em
+  letter-spacing: 0.03em;
+  border-color: transparent;
+  border-radius: 4px;
 }
 
 /* Проєкти */

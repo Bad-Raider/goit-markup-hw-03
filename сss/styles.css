@@ -395,13 +395,15 @@ address {
 /* контакти футера */
 .footer-contact {
   display: block;
-  padding-bottom: 9;
   padding-right: 0px;
   width: 231px;
   margin-bottom: 9px;
 
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+}
+.footer-contact:last-child{
+  margin-bottom: 0px;
 }
 
 /* _________________сторінка "Студія"__________________ */

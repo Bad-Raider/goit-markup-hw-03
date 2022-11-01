@@ -77,7 +77,7 @@ header {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 
 div.nav {
@@ -126,7 +126,7 @@ nav {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 53px;
+  margin-left: 93px;
   padding-left: 0px;
 }
 
@@ -245,6 +245,9 @@ h1 {
 .info {
   margin-bottom: 0px;
   margin-top: 10px;
+
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .section-title
@@ -325,7 +328,7 @@ h1 {
   font-size: var(--primary-font-size);
   line-height: var(--primary-line-height);
   text-align: center;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
@@ -334,11 +337,12 @@ h1 {
   line-height: var(--primary-line-height);
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .staff-border {
-  border-radius: ;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .background-color-section {
@@ -378,6 +382,8 @@ address {
 .address-post {
   display: block;
   width: 231px;
+  margin-bottom: 9px;
+
   color: var(--tertiary-color-text);
   font-style: normal;
 
@@ -392,6 +398,7 @@ address {
   padding-bottom: 9;
   padding-right: 0px;
   width: 231px;
+  margin-bottom: 9px;
 
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;

@@ -247,7 +247,7 @@ h1 {
   margin-top: 10px;
 
   font-weight: 400;
-  line-height: 24px;
+  line-height: var(--secondary-line-height);
 }
 
 .section-title
@@ -376,6 +376,8 @@ line-height: var(--primary-line-height);
 
 address {
   margin-top: 20px;
+  font-weight: 400;
+  line-height: var(--secondary-line-height);
 
 }
 /* адреса футера */
@@ -502,9 +504,9 @@ img {
 }
 
 .progects-text {
-  margin-top: 0px;
+  margin-top: 4px;
   margin-bottom: 0px;
 
   font-size: var(--primary-font-size);
-line-height: 1.9;
+  line-height: 1.9;
 }
